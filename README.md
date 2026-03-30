@@ -1,13 +1,17 @@
 WP2/IPT Lab4
-
+```
 Backend-SpringBoot http://localhost:8080
 Frontend-React http://localhost:3000
+```
 You need NodeJS installed in order to work with React. (https://www.nvmnode.com/ NVM extra in order to handle multiple versions of NodeJS easily.)
 
+```
 They communicate using REST API. The backend serves product data as JSON. 
     GET /api/products — returns a list of all products as JSON
     GET /api/cart/add?pid={id} — returns a single product by its id
+```
 
+```
 Frontend structure:
 src/
   components/
@@ -41,6 +45,7 @@ src/
     cart.service.js               API call to add a product to cart
   App.jsx                         holds cart state, wires everything together
   App.css                         global shared styles
+```
   
 Running the app:
 First, run the backend.
