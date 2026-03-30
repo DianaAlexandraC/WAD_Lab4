@@ -11,8 +11,9 @@ They communicate using REST API. The backend serves product data as JSON.
     GET /api/cart/add?pid={id} — returns a single product by its id
 ```
 
-```
+
 Frontend structure:
+```
 src/
   components/
     Navbar/
